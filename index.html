@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="DevQuad - 4 jóvenes apasionados por la tecnología. Creamos páginas web a la medida de tu presupuesto." />
+<title>DevQuad | Soluciones Tecnológicas a tu Medida</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<canvas id="bgCanvas"></canvas>
+<div class="bg-overlay"></div>
+
+<!-- NAVBAR -->
+<nav>
+  <a href="#inicio" class="logo"><span>Medevs</span></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#equipo">Equipo</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#proceso">Proceso</a></li>
+    <li><a href="#presupuesto">Presupuesto</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <button class="menu-toggle" id="menuToggle">☰</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-content">
+    <div class="badge">&lt;/&gt; 4 desarrolladores · 1 misión</div>
+    <h1>Creamos soluciones <br><span class="typed" id="typed"></span></h1>
+    <p>Somos <strong>Medevs</strong>, un equipo de 4 jóvenes apasionados por la tecnología. Diseñamos páginas web y sistemas a la medida de tu negocio, <strong>adaptados a tu presupuesto</strong>.</p>
+    <div class="cta-group">
+      <a href="#contacto" class="btn btn-primary"> Cotiza tu proyecto</a>
+      <a href="#servicios" class="btn btn-outline">Ver servicios →</a>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPO -->
+<section id="equipo">
+  <div class="section-title reveal">
+    <h2>Los 4 detrás del código</h2>
+  </div>
+  <div class="team-grid">
+    <div class="member reveal">
+      <div class="avatar">AM</div>
+      <h3>Andrés Machado</h3>
+      <div class="role">Full Stack Developer</div>
+      <p>Arquitecto de soluciones. Convierte ideas complejas en código limpio y escalable.</p>
+    </div>
+    <div class="member reveal">
+      <div class="avatar">FU</div>
+      <h3>Felipe Uribe</h3>
+      <div class="role">Frontend Developer</div>
+      <p>Especialista en interfaces modernas, rápidas y con experiencias memorables.</p>
+    </div>
+    <div class="member reveal">
+      <div class="avatar">DM</div>
+      <h3>Daniel Moya</h3>
+      <div class="role">Backend Developer</div>
+      <p>Experto en APIs, bases de datos y la lógica que hace que todo funcione.</p>
+    </div>
+    <div class="member reveal">
+      <div class="avatar">EG</div>
+      <h3>Edwar Granados</h3>
+      <div class="role">UI/UX Designer</div>
+      <p>Diseña experiencias intuitivas donde la estética y la funcionalidad se encuentran.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios">
+  <div class="section-title reveal">
+    <h2>Lo que hacemos por ti</h2>
+  </div>
+  <div class="services-grid">
+    <div class="service reveal">
+      <div class="service-icon">🌐</div>
+      <h3>Páginas Web</h3>
+      <p>Sitios corporativos, landing pages y portafolios modernos, responsivos y optimizados para SEO.</p>
+    </div>
+    <div class="service reveal">
+      <div class="service-icon">🛒</div>
+      <h3>Tiendas Online</h3>
+      <p>E-commerce completos con pasarelas de pago, inventario y panel de administración.</p>
+    </div>
+    <div class="service reveal">
+      <div class="service-icon">⚙️</div>
+      <h3>Sistemas a Medida</h3>
+      <p>Desarrollamos software personalizado para automatizar los procesos de tu negocio.</p>
+    </div>
+    <div class="service reveal">
+      <div class="service-icon">📱</div>
+      <h3>Apps Web Progresivas</h3>
+      <p>Aplicaciones que funcionan como nativas en cualquier dispositivo, sin tiendas de apps.</p>
+    </div>
+    <div class="service reveal">
+      <div class="service-icon">🔧</div>
+      <h3>Mantenimiento</h3>
+      <p>Soporte técnico, actualizaciones y mejoras continuas para que tu sitio nunca se detenga.</p>
+    </div>
+    <div class="service reveal">
+      <div class="service-icon">🚀</div>
+      <h3>Consultoría Tech</h3>
+      <p>Te asesoramos para elegir la mejor tecnología según tu proyecto y tu presupuesto.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESO -->
+<section id="proceso">
+  <div class="section-title reveal">
+    <h2>Nuestro proceso</h2>
+  </div>
+  <div class="process">
+    <div class="step reveal">
+      <h3>Conversamos</h3>
+      <p>Entendemos tu idea, objetivos y presupuesto real. Sin compromisos.</p>
+    </div>
+    <div class="step reveal">
+      <h3>Proponemos</h3>
+      <p>Diseñamos una solución técnica y visual adaptada a lo que necesitas.</p>
+    </div>
+    <div class="step reveal">
+      <h3>Desarrollamos</h3>
+      <p>Codificamos con tecnologías modernas, mostrándote avances cada semana.</p>
+    </div>
+    <div class="step reveal">
+      <h3>Lanzamos</h3>
+      <p>Publicamos tu proyecto y te acompañamos después del lanzamiento.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRESUPUESTO -->
+<section id="presupuesto">
+  <div class="budget reveal">
+    <h2>Tu presupuesto, nuestra prioridad </h2>
+    <p>Sabemos que cada proyecto es distinto. Por eso armamos propuestas <strong>flexibles</strong> que se ajustan a lo que puedes invertir hoy, sin sacrificar calidad.</p>
+    <div class="price-tags">
+      <span class="price-tag"> Plan Emprendedor</span>
+      <span class="price-tag"> Plan Negocio</span>
+      <span class="price-tag"> Plan Premium</span>
+      <span class="price-tag"> Plan Personalizado</span>
+    </div>
+    <a href="#contacto" class="btn btn-primary">Hablemos de tu proyecto</a>
+  </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto">
+  <div class="section-title reveal">
+    <h2>¿Listo para empezar?</h2>
+  </div>
+  <div class="contact-wrap">
+    <div class="contact-info reveal">
+      <h3>Hablemos de tu idea</h3>
+      <p>Respondemos en menos de 24 horas. Cuéntanos qué tienes en mente y te daremos una propuesta sin compromiso.</p>
+      <a href="https://wa.me/573001234567?text=Hola%20DevQuad,%20quiero%20cotizar%20un%20proyecto" target="_blank" class="contact-item">
+        <div class="icon">💬</div>
+        <div>
+          <strong>WhatsApp</strong>
+          <small>+57 300 123 4567</small>
+        </div>
+      </a>
+      <a href="mailto:hola@devquad.com" class="contact-item">
+        <div class="icon">✉️</div>
+        <div>
+          <strong>Correo</strong>
+          <small>hola@medevs.com</small>
+        </div>
+      </a>
+      <a href="https://instagram.com/devquad" target="_blank" class="contact-item">
+        <div class="icon">📸</div>
+        <div>
+          <strong>Instagram</strong>
+          <small>@medevs</small>
+        </div>
+      </a>
+    </div>
+    <form class="reveal" id="contactForm">
+      <div class="form-group">
+        <input type="text" id="nombre" required placeholder="Tu nombre completo">
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" required placeholder="tu@correo.com">
+      </div>
+      <div class="form-group">
+        <select id="presupuesto" required>
+          <option value="">Selecciona un rango</option>
+          <option>Menos de $500 USD</option>
+          <option>$500 - $1500 USD</option>
+          <option>$1500 - $3000 USD</option>
+          <option>Más de $3000 USD</option>
+          <option>Aún no lo sé</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <textarea id="mensaje" required placeholder="Cuéntanos sobre tu proyecto..."></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Enviar mensaje </button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="social">
+    <a href="https://github.com/devquad" target="_blank" title="GitHub">🐙</a>
+    <a href="https://instagram.com/devquad" target="_blank" title="Instagram">📸</a>
+    <a href="https://twitter.com/devquad" target="_blank" title="Twitter">🐦</a>
+    <a href="https://linkedin.com/company/devquad" target="_blank" title="LinkedIn">💼</a>
+    <a href="https://wa.me/573001234567" target="_blank" title="WhatsApp">💬</a>
+  </div>
+  <p>© 2026 DevQuad · Hecho con <span class="heart">♥</span> y mucho café ☕ por 4 jóvenes apasionados</p>
+  <p style="margin-top:.5rem;font-family:'JetBrains Mono',monospace;font-size:.8rem;color:var(--primary)">// code · create · connect</p>
+</footer>
+
+<script src="index.js"> </script>
+</body>
+</html>
